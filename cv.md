@@ -16,3 +16,14 @@ I have some work experience in SEO (search engune optimization), SMM and interne
 
 My motto: there is no limit to knowledge.
 
+## Skills
+* HTML5, CSS3, SASS
+
+* JavaScript, TypeScript
+
+* Angular, React (Basic)
+
+* Git, GitHub
+
+* VS Code
+
