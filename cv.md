@@ -27,3 +27,17 @@ My motto: there is no limit to knowledge.
 
 * VS Code
 
+## Code example
+Codewars task is to create a function deepCount that returns the number of ALL elements within an array, including any within inner-level arrays.
+```javascript
+function deepCount(a){
+  let count = a.length;
+  for (let i = 0; i < a.length; i++) {
+      if (Array.isArray(a[i])) {
+          count += deepCount(a[i]);
+      }
+  }
+  return count;
+}
+```
+
