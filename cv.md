@@ -27,6 +27,8 @@ My motto: there is no limit to knowledge.
 
 * VS Code
 
+* Photoshop
+
 ## Code example
 Codewars task is to create a function deepCount that returns the number of ALL elements within an array, including any within inner-level arrays.
 ```javascript
@@ -62,3 +64,12 @@ Faculty of applied math and computer science
 3. CSS Grid from Webformyself
 4. Angular4 from Webformyself
 5. ReactJS from Webformyself
+
+## Languages
+
+**English:** B1 (EPAM English test result)
+
+**Spanish:** Basic
+
+**Polish:** Basic
+
