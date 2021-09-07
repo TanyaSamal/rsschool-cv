@@ -40,4 +40,25 @@ function deepCount(a){
   return count;
 }
 ```
+## Experience
 
+### Web-studio KasperSystems (2012-2016)
+**Position:** seo-specialist
+
+**Skills:** website development (on templates) and administration, search engine optimization, internet marketing, Yandex Direct and Google AdWords advertisement.
+
+## Education
+
+**University:** Belarus State University,
+Faculty of applied math and computer science
+2007-2012
+
+**Magistracy:** BSU FAMCS, 2012-2013
+
+**Courses:**
+
+1. HTML Academy Interactive courses ([profile link](https://htmlacademy.ru/profile/id815503/progress))
+2. Codecademy Interactive courses([profile link](https://www.codecademy.com/profiles/TanyaSamal))
+3. CSS Grid from Webformyself
+4. Angular4 from Webformyself
+5. ReactJS from Webformyself
