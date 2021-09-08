@@ -150,5 +150,58 @@
         </div>
       </section>
 
+      <section class="portfolio" id="portfolio-section">
+        <h2 class="code-ex">JavaScript code Examples</h2>
+        <div class="examples">
+          <div class="example ex1">
+            <pre>
+              <code class="JS">
+function deepCount(a){
+  let count = a.length;
+  for (let i = 0; i < a.length; i++) {
+    if (Array.isArray(a[i])) {
+      count += deepCount(a[i]);
+    }
+  }
+  return count;
+}
+              </code>
+            </pre>
+          </div>
+          <div class="example ex2">  
+            <pre>
+              <code class="JS">
+function myLanguages(results) {
+    let sortable = [];
+    for (let score in results) {
+        sortable.push([score, results[score]]);
+    }
+    sortable.sort((a, b) => b[1] - a[1]);
+    let resultArr = [];
+    sortable.map(item => (item[1] >= 60) ? resultArr.push(item[0]) : null);
+    return resultArr;
+}
+              </code>
+            </pre>
+          </div>
+          <div class="example ex3">  
+            <pre>
+              <code class="JS">
+function sortByBit(arr) {
+    function compareNumeric(a, b) {
+        let bit1 = (a.toString(2).match(/1/g) || []).length;
+        let bit2 = (b.toString(2).match(/1/g) || []).length;
+        if (bit1 > bit2) return 1;
+        if (bit1 < bit2) return -1;
+        if (bit1 == bit2) return a - b;
+    }
+                    
+    return arr.sort(compareNumeric);
+}
+              </code>
+            </pre>
+          </div>
+        <div class="ex4">Other examples: <a href="https://www.codewars.com/users/TanyaSamal/completed_solutions" target="_blank">codewars.com</a>, <a href="https://github.com/TanyaSamal" target="_blank">github.com</a></div>
+      </section>
   </body>
 </html>

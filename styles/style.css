@@ -231,3 +231,79 @@ h2.working::before {
   padding-top: 15px; 
 }
 
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+  }
+  
+  h2.code-ex::before {
+    background-position: 0 -438px;
+    top: 10px;
+    width: 65px;
+    height: 50px;
+  }
+  
+  h2.code-ex,
+  h2.working,
+  h2.my-education,
+  h2.about-me {
+    margin-top: 0;
+  }
+  
+  .example {
+    height: 270px;
+    width: 30%;
+    background-color: rgb(219, 219, 219);
+    margin-left: 30px;
+    padding-top: 40px;
+  }
+  
+  pre {
+    background-color: azure;
+    padding: 0 10px;
+  }
+  
+  pre::before {
+    display: block;
+    position: relative;
+    top: -25px;
+  }
+  
+  .ex1 {
+    height: 220px;
+  }
+
+  .ex1 pre::before {
+    content:"Array Deep Count";
+  }
+  
+  .ex2 {
+    overflow-x: scroll;
+    height: 220px;
+  }
+
+  .ex2 pre {
+    width: 570px;
+  }
+  
+  .ex2 pre::before {
+    content:"My Languages";
+  }
+  
+  .ex3 {
+    overflow-x: scroll;
+    height: 220px;
+  }
+  
+  .ex3 pre {
+    width: 500px;
+  }
+  
+  .ex3 pre::before {
+    content:"Sorting by bits";
+  }
+  
+  .ex4 {
+    margin: 30px 0 20px;
+  }
