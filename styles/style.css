@@ -124,6 +124,13 @@ h3.contacts::before {
   padding: 20px 30px 50px;
   border: 1px solid #aaaaaa;
 }
+
+h2.my-education::before {
+    background-position: 0 -264px;
+    top: 15px;
+    width: 65px;
+    height: 60px;
+}
   
 .education h3::before,
 .work-block h3::before {
@@ -135,3 +142,92 @@ h3.contacts::before {
   height: 30px; 
 }
   
+footer, 
+.work {
+  display: flex;
+  justify-content: center;  
+}
+ 
+.work-block,
+.skills,
+.portfolio {
+  margin: 30px 0;
+  padding: 20px 30px 15px;
+  border: 1px solid #aaaaaa;
+}
+
+h2.working::before {
+  background-position: 0 -386px;
+  top: 15px;
+  width: 70px;
+  height: 50px;
+}
+
+.skills {
+  width: 30%;
+  margin-right: 30px;
+  box-sizing: border-box;
+}
+
+.work-block {
+  width: 69%;
+}
+
+.skillbar {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  width: 100%;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.skillbar-title {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: #101010;
+  z-index: 100;
+}
+
+.skillbar-title span {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  text-align: right;
+}
+
+.skillbar-bg {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #aaaaaa;
+  z-index: 0;
+}
+
+.skillbar-bar {
+  position: absolute;
+  width: 0;
+  height: 2px;
+  right: 0;
+  background: #101010;
+  z-index: 10;
+}
+
+.skill-bar-percent {
+  position: absolute;
+  left: 0;
+  top: 15px;
+  font-size: 12px;
+  height: 35px;
+  line-height: 35px;
+  color: #aaaaaa;
+  z-index: 100;
+}
+
+.english-skills {
+  padding-top: 15px; 
+}
+
