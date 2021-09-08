@@ -118,3 +118,20 @@ h3.contacts::before {
   width: 50px;
   height: 42px;   
 }
+
+.education {
+  margin: 30px 0;
+  padding: 20px 30px 50px;
+  border: 1px solid #aaaaaa;
+}
+  
+.education h3::before,
+.work-block h3::before {
+  background-position: 0 -579px;
+  margin-right: -30px;
+  top: 10px;
+  right: 42px;
+  width: 30px;
+  height: 30px; 
+}
+  
