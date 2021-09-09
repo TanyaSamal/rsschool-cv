@@ -41,6 +41,7 @@
             </h3>
             <h3>
                 <b>Location:</b> Fanipol, Belarus
+            </h3>
             <h3>
                 <b>Nationality:</b> Belarusian
             </h3>
@@ -158,13 +159,14 @@
               <code class="JS">
 function deepCount(a){
   let count = a.length;
-  for (let i = 0; i < a.length; i++) {
+  for (let i = 0; i &lt; a.length; i++) {
     if (Array.isArray(a[i])) {
       count += deepCount(a[i]);
     }
   }
   return count;
 }
+
               </code>
             </pre>
           </div>
@@ -191,17 +193,27 @@ function sortByBit(arr) {
     function compareNumeric(a, b) {
         let bit1 = (a.toString(2).match(/1/g) || []).length;
         let bit2 = (b.toString(2).match(/1/g) || []).length;
-        if (bit1 > bit2) return 1;
-        if (bit1 < bit2) return -1;
-        if (bit1 == bit2) return a - b;
-    }
-                    
+        if (bit1 > bit2) return a - b;
+    }               
     return arr.sort(compareNumeric);
 }
+
+
               </code>
             </pre>
           </div>
-        <div class="ex4">Other examples: <a href="https://www.codewars.com/users/TanyaSamal/completed_solutions" target="_blank">codewars.com</a>, <a href="https://github.com/TanyaSamal" target="_blank">github.com</a></div>
-      </section>
+          <div class="ex4">Other examples: <a href="https://www.codewars.com/users/TanyaSamal/completed_solutions" target="_blank">codewars.com</a>, <a href="https://github.com/TanyaSamal" target="_blank">github.com</a></div>
+        </div>  
+    </section>
+
+      <footer>
+        <a class="my-github" href="https://github.com/TanyaSamal">
+          <img class="github-icon" src="./images/github.png" alt="Github Icon" width="35" height="35">
+        </a>
+        <h4>2021</h4>
+        <a href="https://rs.school/js/">
+          <img src="./images/rs_school_js.svg" alt="Rsschool Icon" width="126" height="35">
+        </a>
+      </footer>
   </body>
 </html>

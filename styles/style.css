@@ -211,7 +211,6 @@ h2.working::before {
   position: absolute;
   width: 0;
   height: 2px;
-  right: 0;
   background: #101010;
   z-index: 10;
 }
@@ -232,78 +231,77 @@ h2.working::before {
 }
 
 .examples {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
   
-  h2.code-ex::before {
-    background-position: 0 -438px;
-    top: 10px;
-    width: 65px;
-    height: 50px;
-  }
+h2.code-ex::before {
+  background-position: 0 -438px;
+  top: 10px;
+  width: 65px;
+  height: 50px;
+}
   
-  h2.code-ex,
-  h2.working,
-  h2.my-education,
-  h2.about-me {
-    margin-top: 0;
-  }
+h2.code-ex,
+h2.working,
+h2.my-education,
+h2.about-me {
+  margin-top: 0;
+}
   
-  .example {
-    height: 270px;
-    width: 30%;
-    background-color: rgb(219, 219, 219);
-    margin-left: 30px;
-    padding-top: 40px;
-  }
+.example {
+  height: 270px;
+  width: 30%;
+  background-color: rgba(219, 219, 219, 1);
+  margin-left: 30px;
+  padding-top: 40px;
+}
   
-  pre {
-    background-color: azure;
-    padding: 0 10px;
-  }
+pre {
+  background-color: #f6f8fa;
+  padding: 0 10px;
+}
   
-  pre::before {
-    display: block;
-    position: relative;
-    top: -25px;
-  }
+pre::before {
+  display: block;
+  position: relative;
+  top: -25px;
+}
   
-  .ex1 {
-    height: 220px;
-  }
+.ex1,
+.ex2,
+.ex3 {
+  height: 228px;
+  overflow-x: scroll;
+}
 
-  .ex1 pre::before {
-    content:"Array Deep Count";
-  }
-  
-  .ex2 {
-    overflow-x: scroll;
-    height: 220px;
-  }
+.ex1 pre,
+.ex2 pre,
+.ex3 pre {
+  width: 570px;
+}
 
-  .ex2 pre {
-    width: 570px;
-  }
+.ex1 pre::before {
+  content:"Array Deep Count";
+}
   
-  .ex2 pre::before {
-    content:"My Languages";
-  }
+.ex2 pre::before {
+  content:"My Languages";
+}
   
-  .ex3 {
-    overflow-x: scroll;
-    height: 220px;
-  }
+.ex3 pre::before {
+  content:"Sorting by bits";
+}
   
-  .ex3 pre {
-    width: 500px;
-  }
-  
-  .ex3 pre::before {
-    content:"Sorting by bits";
-  }
-  
-  .ex4 {
-    margin: 30px 0 20px;
-  }
+.ex4 {
+  margin: 30px 0 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.2rem;
+}
