@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tanya Samal CV</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+        <div class="logo-box">
+          <h1>T</h1>
+        </div>    
+        <nav class="menu">
+          <ul>
+            <li>
+                <a href="#about-section">About Me</a>
+            </li>
+            <li>
+                <a href="#education-section">Education</a>
+            </li>
+            <li>
+                <a href="#work-section">Expirience</a>
+            </li>
+            <li>
+                <a href="#portfolio-section">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <section class="about" id="about-section">
+        <div class="about-promo texture">
+          <figure>
+            <img src="images/tanya.jpg" width="230" height="230" alt="my photo">
+          </figure>
+          <div class="info">
+            <h3>
+                <b>Name:</b> Tanya Samal
+            </h3>
+            <h3>
+                <b>Location:</b> Fanipol, Belarus
+            </h3>
+            <h3>
+                <b>Nationality:</b> Belarusian
+            </h3>
+          </div>
+        </div>       
+        <div class="about-section">
+          <h2 class="about-me">About Me</h2>
+          <p>I am responsible, executive, diligent and persistent person.</p>
+          <p>I have some work experience in SEO (search engune optimization), SMM and internet advertising. I developed several websites based on templates of open CMS (Wordpress, Joomla). But I am interested in the related area - web development - and I want to evolve in it.</p>
+          <br>
+          <p>My motto: there is no limit to knowledge.</p>
+          
+          <h3 class="hobby">Hobbies</h3>
+          <p>photography | guitar | cake making | needlework | manicure | travels</p>
+          
+          <h3 class="contacts">Contact Info</h3>
+          <ul>
+            <li>
+              <b>phone, viber:</b> +375 29 506-05-56
+            </li>
+            <li>
+              <b>e-mail:</b> solesytto@gmail.com
+            </li>
+            <li>
+              <b>skype:</b> solesytto
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="education" id="education-section">
+        <h2 class="my-education">Education</h2>
+        
+        <h3>Belarus State University,<br> Faculty of applied math and computer science<br>2007-2012</h3>
+        <p>Specialty - actuarial math, qualification – mathematic-financier, GPA(average mark) – 8,9.</p>
+        <p>A topic of my graduation theme «Analysis of the forward rates multifactor term structure models».</p>
+        
+        <h3>Magistracy BSU FAMCS<br>2012-2013</h3>
+        <p>Specialty - applied math and programming.</p>
+        <p>Performance on XI Belorussian math scientific conference in 2012, Minsk.</p>
+        
+        <h3>HTML Academy Interactive courses<br>2018</h3>
+        <p>HTML, CSS, javascript basic</p>
+        
+        <h3>Codecademy Interactive courses<br>2018</h3>
+        <p>Introduction to HTML, learn CSS</p>
+        
+        <h3>CSS Grid from Webformyself<br>2021</h3>
+        <p>Introduction to CSS Grid technology</p>
+      </section>
+
+      <section class="work" id="work-section">
+        <div class="skills texture">
+          <div class="programming-skills">
+            <h2>Skills</h2>
+            <div class="skillbar" data-percent="80%">
+              <div class="skillbar-title">
+                <span>HTML</span>
+              </div>
+              <div class="skillbar-bar" style="width: 80%;"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skill-bar-percent">80%</div>
+            </div>        
+            <div class="skillbar" data-percent="60%">
+              <div class="skillbar-title">
+                <span>CSS</span>
+              </div>
+              <div class="skillbar-bar" style="width: 60%;"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skill-bar-percent">60%</div>
+            </div>
+            <div class="skillbar" data-percent="40%">
+              <div class="skillbar-title">
+                <span>JS</span>
+              </div>
+              <div class="skillbar-bar" style="width: 40%;"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skill-bar-percent">40%</div>
+            </div>        
+          </div>
+          <div class="english-skills">
+            <h2>English: B1 level</h2>
+            <div class="skillbar" data-percent="40%">
+              <div class="skillbar-title">
+                <span>English</span>
+              </div>
+              <div class="skillbar-bar" style="width: 40%;"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skill-bar-percent">40%</div>
+            </div>        
+          </div>
+        </div>
+        <div class="work-block">
+          <h2 class="working">Work Expirience</h2>
+          
+          <h3>Web-studio KasperSystems<br>2012-2016</h3>
+          <p>
+            <b>Position:</b> seo-specialist
+          </p>
+          <br>
+          <p>
+            <b>Skills:</b> website development (on templates) and administration, search engine optimization, internet marketing, Yandex Direct and Google AdWords advertisement.
+          </p>
+          
+          <h3>University Projects</h3>
+          <p>Creating educational projects using programming languages and technologies.</p>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio-section">
+        <h2 class="code-ex">JavaScript code Examples</h2>
+        <div class="examples">
+          <div class="example ex1">
+            <pre>
+              <code class="JS">
+function deepCount(a){
+  let count = a.length;
+  for (let i = 0; i &lt; a.length; i++) {
+    if (Array.isArray(a[i])) {
+      count += deepCount(a[i]);
+    }
+  }
+  return count;
+}
+
+              </code>
+            </pre>
+          </div>
+          <div class="example ex2">  
+            <pre>
+              <code class="JS">
+function myLanguages(results) {
+    let sortable = [];
+    for (let score in results) {
+        sortable.push([score, results[score]]);
+    }
+    sortable.sort((a, b) =&gt; b[1] - a[1]);
+    let resultArr = [];
+    sortable.map(item =&gt; (item[1] &lt;= 60) ? resultArr.push(item[0]) : null);
+    return resultArr;
+}
+              </code>
+            </pre>
+          </div>
+          <div class="example ex3">  
+            <pre>
+              <code class="JS">
+function sortByBit(arr) {
+    function compareNumeric(a, b) {
+        let bit1 = (a.toString(2).match(/1/g) || []).length;
+        let bit2 = (b.toString(2).match(/1/g) || []).length;
+        if (bit1 &gt; bit2) return a - b;
+    }               
+    return arr.sort(compareNumeric);
+}
+
+
+              </code>
+            </pre>
+          </div>
+          <div class="ex4">Other examples: <a href="https://www.codewars.com/users/TanyaSamal/completed_solutions" target="_blank">codewars.com</a>, <a href="https://github.com/TanyaSamal" target="_blank">github.com</a></div>
+        </div>  
+    </section>
+
+      <footer>
+        <a class="my-github" href="https://github.com/TanyaSamal">
+          <img class="github-icon" src="./images/github.png" alt="Github Icon" width="35" height="35">
+        </a>
+        <h4>2021</h4>
+        <a href="https://rs.school/js/">
+          <img src="./images/rs_school_js.svg" alt="Rsschool Icon" width="126" height="35">
+        </a>
+      </footer>
+  </body>
+</html>
