@@ -1,8 +1,9 @@
 {
     "scripts": {
-        "test": "htmlhint path/to/html/files/*.html"
+        "test": "htmlhint **/*.html"
     },
     "devDependencies": {
+        "htmlhint": "^0.15.1",
         "stylelint-config-htmlacademy": "^0.1.10"
     }
 }

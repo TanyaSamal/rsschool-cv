@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Tanya Samal CV</title>
-    <link rel='stylesheet' href="styles/reset.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
   </head>
@@ -178,9 +178,9 @@ function myLanguages(results) {
     for (let score in results) {
         sortable.push([score, results[score]]);
     }
-    sortable.sort((a, b) => b[1] - a[1]);
+    sortable.sort((a, b) =&gt; b[1] - a[1]);
     let resultArr = [];
-    sortable.map(item => (item[1] >= 60) ? resultArr.push(item[0]) : null);
+    sortable.map(item =&gt; (item[1] &lt;= 60) ? resultArr.push(item[0]) : null);
     return resultArr;
 }
               </code>
@@ -193,7 +193,7 @@ function sortByBit(arr) {
     function compareNumeric(a, b) {
         let bit1 = (a.toString(2).match(/1/g) || []).length;
         let bit2 = (b.toString(2).match(/1/g) || []).length;
-        if (bit1 > bit2) return a - b;
+        if (bit1 &gt; bit2) return a - b;
     }               
     return arr.sort(compareNumeric);
 }
