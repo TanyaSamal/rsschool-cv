@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </head>
   <body>
     <header class="header">
@@ -161,8 +164,7 @@
         <h2 class="code-ex">JavaScript code Examples</h2>
         <div class="examples">
           <div class="example ex1">
-            <pre>
-              <code class="JS">
+            <pre><code class="js">
 function deepCount(a){
   let count = a.length;
   for (let i = 0; i &lt; a.length; i++) {
@@ -172,13 +174,11 @@ function deepCount(a){
   }
   return count;
 }
-
               </code>
             </pre>
           </div>
           <div class="example ex2">  
-            <pre>
-              <code class="JS">
+            <pre><code class="js">
 function myLanguages(results) {
     let sortable = [];
     for (let score in results) {
@@ -193,8 +193,7 @@ function myLanguages(results) {
             </pre>
           </div>
           <div class="example ex3">  
-            <pre>
-              <code class="JS">
+            <pre><code class="js">
 function sortByBit(arr) {
     function compareNumeric(a, b) {
         let bit1 = (a.toString(2).match(/1/g) || []).length;
@@ -203,8 +202,6 @@ function sortByBit(arr) {
     }               
     return arr.sort(compareNumeric);
 }
-
-
               </code>
             </pre>
           </div>

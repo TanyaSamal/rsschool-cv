@@ -1,3 +1,7 @@
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     max-width: 1024px;
     margin: 0 auto;
@@ -295,7 +299,7 @@ h2.about-me {
 }
   
 pre {
-  background-color: #f6f8fa;
+  background-color: #f0f0f0;
   padding: 0 10px;
 }
   
@@ -308,14 +312,14 @@ pre::before {
 .ex1,
 .ex2,
 .ex3 {
-  height: 228px;
+  height: 257px;
   overflow-x: scroll;
 }
 
 .ex1 pre,
 .ex2 pre,
 .ex3 pre {
-  width: 570px;
+  width: 600px;
 }
 
 .ex1 pre::before {
@@ -332,6 +336,10 @@ pre::before {
   
 .ex4 {
   margin: 30px 0 20px;
+}
+
+.hljs {
+  height: 180px;
 }
 
 footer {
