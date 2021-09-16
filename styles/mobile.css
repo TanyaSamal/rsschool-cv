@@ -1,0 +1,260 @@
+@media (max-width: 1024px) {
+  body {
+    padding: 0 20px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about-promo {
+    position: relative;
+    width: 93%;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+  .about-promo img {
+    width: 25%;
+    float: left;
+  }
+
+  .info {
+    position: absolute;
+    top: 23%;
+    left: 28%;
+    text-align: left;
+  }
+
+  .info h3 {
+    font-size: 21px;
+  }
+
+  .about-section {
+    width: 90%;
+  }
+
+  .examples {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .example {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .ex1 pre,
+  .ex2 pre,
+  .ex3 pre {
+    width: 93%;
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    position: relative;
+  }
+
+  p,
+  .about-section ul li {
+    font-size: 18px;
+  }
+
+  .menu__btn {
+    opacity: 1;
+  }
+
+  .menu ul{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    margin: 0;
+    padding: 80px 0;
+    background-color: #ffffff;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    z-index: 2;
+  }
+
+  .menu ul li {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .menu ul li:hover {
+    background-color: #CFD8DC;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    transition-duration: .25s;
+  }
+  .menu__box {
+    transition-duration: .25s;
+  }
+  .menu__item {
+    transition-duration: .25s;
+  }
+
+  .logo-box {
+    margin-bottom: 20px;
+  }
+
+  .work {
+    flex-direction: column;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .work-block {
+    width: 91%;
+  }
+
+  .skill-bar-percent {
+    font-size: 16px;
+  }
+
+  .skillbar-title span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 680px) {
+  .info {
+    top: 15%;
+    left: 30%;
+  }
+
+  .info h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    width: 89%;
+  }
+
+  .work-block {
+    width: 88%;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-promo {
+    width: 91%;
+  }
+
+  .info {
+    top: 5%;
+  }
+
+  .about-section {
+    width: 87%;
+  }
+
+  .work-block {
+    width: 86%;
+  }
+}
+
+@media (max-width: 460px) {
+  .about-promo {
+    width: 90%;
+  }
+
+  .about-section {
+    width: 85%;
+  }
+
+  .work-block {
+    width: 85%;
+  }
+}
+
+@media (max-width: 400px) {
+  p,
+  .about-section ul li {
+    font-size: 16px;
+  } 
+
+  h2 {
+    line-height: 1.4;
+  }
+
+  .about-promo {
+    width: 87%;
+  }
+
+  .about-section {
+    width: 82%;
+  }
+
+  .about-promo img {
+    width: 35%;
+    float: unset;
+  }
+
+  .info {
+    position: relative;
+    left: 0;
+    text-align: center;
+  }
+
+  .info h3 {
+    line-height: 0;
+  }
+
+  .work-block {
+    width: 82%;
+  }
+
+  .example {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 340px) {
+  .menu__btn {
+    right: 7%;
+  }
+
+  .about-promo {
+    width: 85%;
+  }
+
+  .about-section {
+    width: 78%;
+  }
+
+  .work-block {
+    width: 78%;
+  }
+}
