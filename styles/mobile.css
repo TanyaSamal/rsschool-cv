@@ -137,6 +137,10 @@
     width: 91%;
   }
 
+  .project img {
+    width: 300px;
+  }
+
   .skill-bar-percent {
     font-size: 16px;
   }
@@ -164,6 +168,11 @@
 
   .work-block {
     width: 88%;
+  }
+
+  .project img {
+    width: 100%;
+    float: initial;
   }
 }
 

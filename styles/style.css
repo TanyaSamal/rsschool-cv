@@ -342,6 +342,15 @@ pre::before {
   height: 180px;
 }
 
+.project img {
+  float: left;
+  padding-right: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
