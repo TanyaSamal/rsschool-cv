@@ -191,7 +191,9 @@ footer,
 
 .work-block,
 .skills,
-.portfolio {
+.portfolio,
+.video,
+.projects {
   margin: 30px 0;
   padding: 20px 30px 15px;
   border: 1px solid #aaaaaa;
@@ -343,6 +345,21 @@ pre::before {
   height: 180px;
 }
 
+.projects {
+  padding-top: 0;
+}
+
+.projects-title {
+  margin: 0;
+}
+
+.projects-title::before {
+  background-position: 0 4px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
 .project img {
   float: left;
   padding-right: 30px;
@@ -350,6 +367,23 @@ pre::before {
 
 .clear {
   clear: both;
+}
+
+.video {
+  padding-bottom: 40px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.video-title {
+  margin-top: 0;
+}
+
+.video-title::before {
+  background-position: 0 -117px;
+  top: 23px;
+  width: 60px;
+  height: 60px;
 }
 
 footer {
