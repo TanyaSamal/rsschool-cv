@@ -49,20 +49,12 @@
               <h3>
                   <b>Location:</b> Fanipol, Belarus
               </h3>
-              <h3>
-                  <b>Nationality:</b> Belarusian
-              </h3>
             </div>
           </div>       
           <div class="about-section">
             <h2 class="about-me">About Me</h2>
             <p>I am responsible, executive, diligent and persistent person.</p>
             <p>I have some work experience in SEO (search engune optimization), SMM and internet advertising. I developed several websites based on templates of open CMS (Wordpress, Joomla). But I am interested in the related area - web development - and I want to evolve in it.</p>
-            <br>
-            <p>My motto: there is no limit to knowledge.</p>
-            
-            <h3 class="hobby">Hobbies</h3>
-            <p>photography | guitar | cake making | needlework | manicure | travels</p>
             
             <h3 class="contacts">Contact Info</h3>
             <ul>
@@ -73,7 +65,7 @@
                 <b>e-mail:</b> solesytto@gmail.com
               </li>
               <li>
-                <b>skype:</b> solesytto
+                <b>linkedIn:</b> <a href="https://www.linkedin.com/in/tatsiana-samal-9a1719176/" target="_blank">Tatsiana Samal</a>
               </li>
             </ul>
           </div>
@@ -88,7 +80,6 @@
           
           <h3>Magistracy BSU FAMCS<br>2012-2013</h3>
           <p>Specialty - applied math and programming.</p>
-          <p>Performance on XI Belorussian math scientific conference in 2012, Minsk.</p>
           
           <h3>HTML Academy Interactive courses<br>2018</h3>
           <p>HTML, CSS, javascript basic</p>
@@ -96,8 +87,15 @@
           <h3>Codecademy Interactive courses<br>2018</h3>
           <p>Introduction to HTML, learn CSS</p>
           
-          <h3>CSS Grid from Webformyself<br>2021</h3>
-          <p>Introduction to CSS Grid technology</p>
+          <h3>RSSchool, JavaScript/Frontend course<br>2022</h3>
+          <p><a href="https://app.rs.school/certificate/3mdl4k5q" target="_blank">Certificate</a></p>
+
+          <h3>RSSchool, AngularJS course<br>2022</h3>
+          <p><a href="https://app.rs.school/certificate/y92q3h9k" target="_blank">Certificate</a></p>
+
+          <h3>RSSchool, NodeJS course<br>2022</h3>
+          <p><a href="https://app.rs.school/certificate/uu2h1w1j" target="_blank">Certificate</a></p>
+
         </section>
 
         <section class="work" id="work-section">
@@ -120,13 +118,13 @@
                 <div class="skillbar-bg"></div>
                 <div class="skill-bar-percent">60%</div>
               </div>
-              <div class="skillbar" data-percent="40%">
+              <div class="skillbar" data-percent="50%">
                 <div class="skillbar-title">
                   <span>JS</span>
                 </div>
-                <div class="skillbar-bar" style="width: 40%;"></div>
+                <div class="skillbar-bar" style="width: 50%;"></div>
                 <div class="skillbar-bg"></div>
-                <div class="skill-bar-percent">40%</div>
+                <div class="skill-bar-percent">50%</div>
               </div>        
             </div>
             <div class="english-skills">
@@ -152,62 +150,131 @@
             <p>
               <b>Skills:</b> website development (on templates) and administration, search engine optimization, internet marketing, Yandex Direct and Google AdWords advertisement.
             </p>
-            
-            <h3>University Projects</h3>
-            <p>Creating educational projects using programming languages and technologies.</p>
           </div>
         </section>
 
-        <section class="portfolio" id="portfolio-section">
-          <h2 class="code-ex">JavaScript code Examples</h2>
-          <div class="examples">
-            <div class="example ex1">
-              <pre><code class="js">
-  function deepCount(a){
-    let count = a.length;
-    for (let i = 0; i &lt; a.length; i++) {
-      if (Array.isArray(a[i])) {
-        count += deepCount(a[i]);
-      }
-    }
-    return count;
-  }
-                </code>
-              </pre>
-            </div>
-            <div class="example ex2">  
-              <pre><code class="js">
-  function myLanguages(results) {
-      let sortable = [];
-      for (let score in results) {
-          sortable.push([score, results[score]]);
-      }
-      sortable.sort((a, b) =&gt; b[1] - a[1]);
-      let resultArr = [];
-      sortable.map(item =&gt; (item[1] &lt;= 60) ? resultArr.push(item[0]) : null);
-      return resultArr;
-  }
-                </code>
-              </pre>
-            </div>
-            <div class="example ex3">  
-              <pre><code class="js">
-  function sortByBit(arr) {
-      function compareNumeric(a, b) {
-          let bit1 = (a.toString(2).match(/1/g) || []).length;
-          let bit2 = (b.toString(2).match(/1/g) || []).length;
-          if (bit1 &gt; bit2) return a - b;
-      }               
-      return arr.sort(compareNumeric);
-  }
-                </code>
-              </pre>
-            </div>
-            <div class="ex4">Other examples: <a href="https://www.codewars.com/users/TanyaSamal/completed_solutions" target="_blank">codewars.com</a>, <a href="https://github.com/TanyaSamal" target="_blank">github.com</a></div>
-          </div> 
-        </section>
         <section class="projects" id="projects-section">
           <h2 class="projects-title">Projects</h2>
+          <div class="project">
+            <figure>
+              <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/museum-dom/" target="_blank">
+                <img src="images/screenshot-markup.png" width="400" alt="markup">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>Markup</h3>
+              <p>High-level markup with different modern features: endless slider, ripple effect, gallery on grids, mapbox library, custom HTML5 video player with key controls, calculator for tickets with form validation, pixel perfect markup with adaptiveness for mobiles and tablets, parallax effect and other features.</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>SASS, Webpack, JavaScript</p>
+              <p class="clear"></p>
+            </div>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/momentum/" target="_blank">
+                <img src="images/screenshot-momentum.png" width="400" alt="momentum">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>Momentum</h3>
+              <p>Modern application with different widgets: time, greeting, citations, online data about the weather in chosen city, todos list, possibility to change background pictures and their resources, listen music (HTML5 custom audio), settings to show or hide each widget, internationalization (russian and english languages are available)</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>SASS, Webpack, JavaScript</p>
+              <p class="clear"></p>
+            </div>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/art-quiz/" target="_blank">
+                <img src="images/screenshot-artquiz.png" width="400" alt="artquiz">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>Art quiz</h3>
+              <p>In this quiz you can choose 3 types of games: to guess author of the picture for his work or vise versa, and blitz mix game for time. The game is accompanied by sound and graphic effects. There are statistics, settings for game with or without time, fullscreen mode, different art genres.</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>SASS, Webpack, JavaScrip, Eslint, SPA (single page application)</p>
+              <p class="clear"></p>
+            </div>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://tanyasamal-christmas-task-part2.netlify.app/#/tree" target="_blank">
+                <img src="images/screenshot-christmas.png" width="400" alt="christmas">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>Christmas game and shop</h3>
+              <p>One part of this project is the game where you can decorate christmas tree by different balls, toys and garland. It's available to change tree and background image, save your tree as a picture, add sounds and snowflakes. The second part of this app is the toys store with filter by color, shape, size, available amount of toys and their dates of creation, search by name and sort by name and year. Also you can add or remove toys to favourites.</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>SASS, TypeScript, SPA, AngularJS, Eslint, Prettier</p>
+              <p class="clear"></p>
+            </div>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://tanyasamal-async-race.netlify.app/" target="_blank">
+                <img src="images/screenshot-race.png" width="400" alt="async race">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>Async race</h3>
+              <p>There is three views: garage, winners and statistic. User is able to create, update, delete a car, and see the list of the cars. There is car and race animation: user clicks to the engine start button -> UI is waiting for car's velocity answer -> animate the car and makes another request to drive. At the end of the race you can see the winner and this information is available on the "Winners" page with different typeps of sorting.</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>CSS, TypeScript, Webpack, SPA, Eslint, Prettier</p>
+              <p class="clear"></p>
+            </div>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://rslang-tanyasamal.netlify.app/" target="_blank">
+                <img src="images/screenshot-rslang.png" width="400" alt="rs lang">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>RSLang (team project for two people)</h3>
+              <p>This is an application to learn English words using two games: audiocall and sprint. There is a dictionary consisted from 4000 english words divided by 6 levels depending on their complexity. As you sign up for the app you can mark the word as learnt or difficult. Also it's available daily and long-term statistics for registered users.</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>SCSS, TypeScript, Webpack, SPA, Eslint, Prettier, Web Animations, Chart.js</p>
+              <p class="clear"></p>
+            </div>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://youtube-client-6-tanyasamal.netlify.app/" target="_blank">
+                <img src="images/screenshot-youtube.png" width="400" alt="youtube client">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>Youtube client</h3>
+              <p>This application represents youtube client. You can input keyword in the search field and see results as if it's youtube site. You can sort this results by view count, date and filter by words. Also you can register on the site and see full information about the video or create your own video card.</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>SCSS, Angular, SPA, Eslint, Prettier, Rxjs</p>
+              <p class="clear"></p>
+            </div>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://rsmanager-tanyasamal-evgender-horndron.netlify.app/" target="_blank">
+                <img src="images/screenshot-rsmanager.png" width="400" alt="rs manager">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>RSLang (team project for 3 people)</h3>
+              <p>This is a project management tool where you can sign up and create your own project boards with columns and tasks inside. You can add, delete and drag and drop columns, tasks and boards, search tasks by different options and translate application into russian or english.</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>SCSS, Angular, SPA, Eslint, Prettier, Rxjs, Redux, Karma</p>
+              <p class="clear"></p>
+            </div>
+          </div>
           <div class="project">
             <figure>
               <a href="https://tanyasamal.github.io/Brainstorm/" target="_blank">
@@ -260,22 +327,45 @@
               <p class="clear"></p>
             </div>
           </div>
-        </section>
-        <section class="video" id="video-section">
-          <h2 class="video-title">Video presentation</h2>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/qu30tetyjJY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
+          <div class="project">
+            <figure>
+              <a href="https://github.com/TanyaSamal/nodejs2022Q2-service/tree/auth" target="_blank">
+                <img src="images/screenshot-service.png" width="400" alt="rest service">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>Rest service</h3>
+              <p>REST service based on NestJs library. There is no deploy version and you can see, clone and run code from github or <a href="https://hub.docker.com/repository/docker/miasol/nodejs2022q2-service_app" target="_blank">dockerhub</a>. See README.md how it works. </p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>Docker, TypeOrm, Winston, TypeScript, NestJS, Passport, JWT, Eslint, PostgreSQL, NodeJs</p>
+              <p class="clear"></p>
+            </div>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://github.com/TanyaSamal/file-manager/tree/develop" target="_blank">
+                <img src="images/screenshot-filemanager.png" width="400" alt="file manager">
+              </a>
+            </figure>
+            <div class="description">
+              <h3>File manager</h3>
+              <p>This file manager is written on a pure NodeJS. It can go to dedicated folder from current directory, list all files and folders, create, rename, remove, copy and move files, show information about OS. There is no deploy version and you can see, clone and run code from <a href="https://github.com/TanyaSamal/file-manager/tree/develop">github</a>.</p>
+              <br>
+              <h4>Technologies:</h4>
+              <p>NodeJs (ESM modules)</p>
+              <p class="clear"></p>
+            </div>
+          </div>
         </section>
         <footer>
           <a class="my-github" href="https://github.com/TanyaSamal">
             <img class="github-icon" src="./images/github.png" alt="Github Icon" width="35" height="35">
           </a>
-          <h4>2021</h4>
+          <h4>2022</h4>
           <a href="https://rs.school/js/">
             <img src="./images/rs_school_js.svg" alt="Rsschool Icon" width="126" height="35">
           </a>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-          <script>hljs.initHighlightingOnLoad();</script>
         </footer>
     </body>
   </html>
