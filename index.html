@@ -7,285 +7,543 @@
       <link rel="stylesheet" href="styles/reset.css">
       <link rel="stylesheet" href="styles/style.css">
       <link rel="stylesheet" href="styles/mobile.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     </head>
     <body>
-      <header class="header">
-          <div class="logo-box">
-            <h1>T</h1>
-          </div>    
-          <nav class="menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span></span>
-            </label>
-            <ul class="menu__box">
-              <li>
-                  <a class="menu__item" href="#about-section">About Me</a>
-              </li>
-              <li>
-                  <a class="menu__item" href="#education-section">Education</a>
-              </li>
-              <li>
-                  <a class="menu__item" href="#work-section">Expirience</a>
-              </li>
-              <li>
-                  <a class="menu__item" href="#portfolio-section">Portfolio</a>
-              </li>
-            </ul>
-          </nav>
-      </header>
-
-      <section class="about" id="about-section">
-          <div class="about-promo texture">
-            <figure>
+      <section class="main">
+        <div class="about__promo">
+          <div class="about__images">
+            <div class="img-bg layer1"></div>
+            <div class="featured-img layer2">
               <img src="images/tanya.jpg" width="230" height="230" alt="my photo">
-            </figure>
-            <div class="info">
-              <h3>
-                  <b>Name:</b> Tanya Samal
-              </h3>
-              <h3>
-                  <b>Location:</b> Fanipol, Belarus
-              </h3>
             </div>
-          </div>       
-          <div class="about-section">
-            <h2 class="about-me">About Me</h2>
-            <p>I am responsible, executive, diligent and persistent person.</p>
-            <p>I have some work experience in SEO (search engune optimization), SMM and internet advertising. I developed several websites based on templates of open CMS (Wordpress, Joomla). But I am interested in the related area - web development - and I want to evolve in it.</p>
-            
-            <h3 class="contacts">Contact Info</h3>
-            <ul>
-              <li>
-                <b>phone, viber:</b> +375 29 506-05-56
-              </li>
-              <li>
-                <b>e-mail:</b> solesytto@gmail.com
-              </li>
-              <li>
-                <b>linkedIn:</b> <a href="https://www.linkedin.com/in/tatsiana-samal-9a1719176/" target="_blank">Tatsiana Samal</a>
-              </li>
-            </ul>
           </div>
-        </section>
-
-        <section class="education" id="education-section">
-          <h2 class="my-education">Education</h2>
-          
-          <h3>Belarus State University,<br> Faculty of applied math and computer science<br>2007-2012</h3>
-          <p>Specialty - actuarial math, qualification – mathematic-financier, GPA(average mark) – 8,9.</p>
-          <p>A topic of my graduation theme «Analysis of the forward rates multifactor term structure models».</p>
-          
-          <h3>Magistracy BSU FAMCS<br>2012-2013</h3>
-          <p>Specialty - applied math and programming.</p>
-          
-          <h3>HTML Academy Interactive courses<br>2018</h3>
-          <p>HTML, CSS, javascript basic</p>
-          
-          <h3>Codecademy Interactive courses<br>2018</h3>
-          <p>Introduction to HTML, learn CSS</p>
-          
-          <h3>RSSchool, JavaScript/Frontend course<br>2022</h3>
-          <p><a href="https://app.rs.school/certificate/3mdl4k5q" target="_blank">Certificate</a></p>
-
-          <h3>RSSchool, AngularJS course<br>2022</h3>
-          <p><a href="https://app.rs.school/certificate/y92q3h9k" target="_blank">Certificate</a></p>
-
-          <h3>RSSchool, NodeJS course<br>2022</h3>
-          <p><a href="https://app.rs.school/certificate/uu2h1w1j" target="_blank">Certificate</a></p>
-
-        </section>
-
-        <section class="work" id="work-section">
-          <div class="skills texture">
-            <div class="programming-skills">
-              <h2>Skills</h2>
-              <div class="skillbar" data-percent="80%">
-                <div class="skillbar-title">
-                  <span>HTML</span>
+          <div class="info">
+            <h2>Tatsiana Samal</h2>
+            <h3 class="typewriter">I'm <span class="red-text">Junior Frontend Developer</span></h3>
+          </div>
+          <div class="cv__btn">
+            <a href="./Samal Tatsiana.pdf">Download CV</a>
+          </div>
+        </div>  
+        <nav class="menu">
+          <ul class="menu__box">
+            <li id="1" class="menu__active">About Me</li>
+            <li id="2">Resume</li>
+            <li id="3">Skills</li>
+            <li id="4">Portfolio</li>
+            <li id="5">Contacts</li>
+          </ul>
+        </nav>
+        <section class="content">
+          <section class="about section" id="about-section">
+            <div class="about-section">
+              <h2 class="header2">About Me</h2>
+              <p>I want to start a career as a frontend developer. What I have now:</p>
+              <ol class="summary">
+                <li><strong>Basic technical skills</strong> include theoretical  knowledge and  experience in training projects in HTML, CSS, JavaScript, TypeScript, Angular, NodeJs.</li>
+                <li>I spent last year studying in Rolling Scopes School and I have certificates in JavaScript (20 position), Angular (9 position) and NodeJs (1 position in rating).</li>
+                <li><strong>Management skills:</strong> supervising less experienced colleagues, conducting technical interviews, managing people (it’s an experience from my past job as s head of department).</li>
+                <li>I have a <strong>master's degree</strong> in Physical and Mathematical Sciences (BSU).</li>
+                <li>I am responsible for the work I do, I easily interact with other team members, I try to meet the deadlines of the task and correctly estimate the time to complete it, based on my experience. I expect to work under supervision for the first time.</li>
+              </ul>
+            </div>
+          </section>
+          <section class="education section hidden" id="education-section">
+            <div class="timeline">
+              <div class="timeline-column">
+                <h2 class="my-education">Education</h2>
+                <div class="inner">
+                  <div class="timeline-block">
+                    <div class="inner-box">
+                        <h4>Belarus State University</h4>
+                        <div class="date"><span>2007-2012</span> / FAMCS</div>
+                        <div class="text">Specialty - actuarial math,<br/> qualification – mathematic-financier.</div>
+                    </div>
+                  </div>
+                  <div class="timeline-block">
+                    <div class="inner-box">
+                        <h4>Magistracy BSU</h4>
+                        <div class="date"><span>2012-2013</span> / FAMCS</div>
+                        <div class="text">Specialty - applied math and programming.</div>
+                    </div>
+                  </div>
+                  <div class="timeline-block">
+                    <div class="inner-box">
+                        <h4>HTML Academy</h4>
+                        <div class="date"><span>2018</span> / Interactive courses</div>
+                        <div class="text">HTML, CSS, javascript basic</div>
+                    </div>
+                  </div>
+                  <div class="timeline-block">
+                    <div class="inner-box">
+                        <h4>Codecademy</h4>
+                        <div class="date"><span>2018</span> / Interactive courses</div>
+                        <div class="text">Introduction to HTML, learn CSS</div>
+                    </div>
+                  </div>
+                  <div class="timeline-block">
+                    <div class="inner-box">
+                        <h4>Rolling Scopes School</h4>
+                        <div class="date"><span>2021-2022</span> / Frontend, Angular and NodeJs courses</div>
+                        <div class="text">
+                          <p><a href="https://app.rs.school/certificate/3mdl4k5q" target="_blank">Javascript certificate</a></p>
+                          <p><a href="https://app.rs.school/certificate/y92q3h9k" target="_blank">AngularJS certificate</a></p>
+                          <p><a href="https://app.rs.school/certificate/uu2h1w1j" target="_blank">NodearJS certificate</a></p>
+                        </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="skillbar-bar" style="width: 80%;"></div>
-                <div class="skillbar-bg"></div>
-                <div class="skill-bar-percent">80%</div>
-              </div>        
-              <div class="skillbar" data-percent="60%">
-                <div class="skillbar-title">
-                  <span>CSS</span>
-                </div>
-                <div class="skillbar-bar" style="width: 60%;"></div>
-                <div class="skillbar-bg"></div>
-                <div class="skill-bar-percent">60%</div>
               </div>
-              <div class="skillbar" data-percent="50%">
-                <div class="skillbar-title">
-                  <span>JS</span>
+              <div class="timeline-column">
+                <h2 class="my-experience">Experience</h2>
+                <div class="inner">
+                  <div class="timeline-block">
+                    <div class="inner-box">
+                        <h4>Web-studio KasperSystems</h4>
+                        <div class="date"><span>2012-2016</span> / webmaster</div>
+                        <div class="text"><b>Skills:</b> website development (on templates) and administration, search engine optimization, internet marketing, Yandex Direct and Google AdWords advertisement.</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="skillbar-bar" style="width: 50%;"></div>
-                <div class="skillbar-bg"></div>
-                <div class="skill-bar-percent">50%</div>
-              </div>        
+              </div>
             </div>
-            <div class="english-skills">
-              <h2>English: B1 level</h2>
-              <div class="skillbar" data-percent="40%">
-                <div class="skillbar-title">
-                  <span>English</span>
+          </section>
+          <section class="skills section hidden">
+            <h2>Skills</h2>
+            <div class="skill-block">
+              <div class="single-chart">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <path class="circle"
+                    stroke-dasharray="80, 100"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <text x="18" y="20.35" class="percentage">80%</text>
+                </svg>
+                <h3>HTML</h3>
+              </div>
+              <div class="single-chart">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <path class="circle"
+                    stroke-dasharray="70, 100"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <text x="18" y="20.35" class="percentage">70%</text>
+                </svg>
+                <h3>CSS</h3>
+              </div>
+              <div class="single-chart">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <path class="circle"
+                    stroke-dasharray="50, 100"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <text x="18" y="20.35" class="percentage">50%</text>
+                </svg>
+                <h3>JavaScript</h3>
+              </div>
+              <div class="single-chart">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <path class="circle"
+                    stroke-dasharray="50, 100"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <text x="18" y="20.35" class="percentage">50%</text>
+                </svg>
+                <h3>TypeScript</h3>
+              </div>
+            </div>
+            <h2>Technologies and tools</h2>
+            <ol class="summary">
+              <li><strong>Frameworks and technologies:</strong> AngularJS, NodeJs, Redux, NestJS</li>
+              <li><strong>Tools:</strong> Postman, Docker, Figma, RxJs, Eslint, Karma, Jasmine, Webpack</li>
+              <li><strong>Databases:</strong> PostgreSQL</li>
+              <li><strong>Version Control Systems:</strong> Git</li>
+              <li><strong>Integrated Development Environment:</strong> Visual Studio Code</li>
+            </ol>
+            <h2>English level: B1 (Intermediate)</h2>
+          </section>
+          <section class="projects section hidden" id="projects-section">
+            <h2 class="projects-title">Projects</h2>
+            <div class="project-works">
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-markup.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-1" title="Image Caption Here" data-fancybox-group="example-gallery">
+                          <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Markup</h3>
+                      <h4>Technologies:</h4>
+                      <p>SASS, Webpack, JavaScript</p>
+                    </div>
                 </div>
-                <div class="skillbar-bar" style="width: 40%;"></div>
-                <div class="skillbar-bg"></div>
-                <div class="skill-bar-percent">40%</div>
-              </div>        
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-momentum.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-2" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Momentum</h3>
+                      <h4>Technologies:</h4>
+                      <p>SASS, Webpack, JavaScript</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-artquiz.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-3" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Art quiz</h3>
+                      <h4>Technologies:</h4>
+                      <p>SASS, Webpack, JavaScrip, Eslint, SPA (single page application)</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-christmas.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-4" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Christmas game and shop</h3>
+                      <h4>Technologies:</h4>
+                      <p>SASS, TypeScript, SPA, AngularJS, Eslint, Prettier</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-race.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-5" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Async race</h3>
+                      <h4>Technologies:</h4>
+                      <p>CSS, TypeScript, Webpack, SPA, Eslint, Prettier</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-rslang.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-6" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>RSLang</h3>
+                      <h4>Technologies:</h4>
+                      <p>SCSS, TypeScript, Webpack, SPA, Eslint, Prettier, Web Animations, Chart.js</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-youtube.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-7" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Youtube client</h3>
+                      <h4>Technologies:</h4>
+                      <p>SCSS, Angular, SPA, Eslint, Prettier, Rxjs</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-rsmanager.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-8" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>RS Manager</h3>
+                      <h4>Technologies:</h4>
+                      <p>SCSS, Angular, SPA, Eslint, Prettier, Rxjs, Redux, Karma</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-brainstorm.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-9" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Brainstorm</h3>
+                      <h4>Technologies:</h4>
+                      <p>JavaScript, React, Webpack, EsLint</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-writers.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-10" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Cultural portal</h3>
+                      <h4>Technologies:</h4>
+                      <p>JavaScript, Webpack, EsLint, JSON</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-service.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-11" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>Rest service</h3>
+                      <h4>Technologies:</h4>
+                      <p>Docker, TypeOrm, Winston, TypeScript, NestJS, Passport, JWT, Eslint, PostgreSQL, NodeJs</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects-block">
+                <div class="inner-block">
+                    <figure class="image">
+                      <img src="images/screenshot-filemanager.png" alt="image">
+                      <div class="overlay">
+                        <a class="lightbox-image option-btn" id="pr-12" title="Image Caption Here" data-fancybox-group="example-gallery">
+                            <i class="search"></i>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class="caption-title">
+                      <h3>File manager</h3>
+                      <h4>Technologies:</h4>
+                      <p>NodeJs (ESM modules)</p>
+                    </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work-block">
-            <h2 class="working">Work Expirience</h2>
-            
-            <h3>Web-studio KasperSystems<br>2012-2016</h3>
-            <p>
-              <b>Position:</b> seo-specialist
-            </p>
-            <br>
-            <p>
-              <b>Skills:</b> website development (on templates) and administration, search engine optimization, internet marketing, Yandex Direct and Google AdWords advertisement.
-            </p>
-          </div>
+          </section>
+          <section class="contacts section hidden" id="contacts-section">
+            <h2>Contact</h2>
+            <h3>Keep in touch</h3>
+            <p class="phone">Phone, viber: <a href="tel:+375295060556">+375 29 506-05-56</a></p>
+            <p class="email">E-mail: solesytto@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/tatsiana-samal-9a1719176/" target="_blank">Tatsiana Samal</a></p>
+          </section>
         </section>
+      </section>
 
-        <section class="projects" id="projects-section">
-          <h2 class="projects-title">Projects</h2>
-          <div class="project">
-            <figure>
-              <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/museum-dom/" target="_blank">
-                <img src="images/screenshot-markup.png" width="400" alt="markup">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Markup</h3>
-              <p>High-level markup with different modern features: endless slider, ripple effect, gallery on grids, mapbox library, custom HTML5 video player with key controls, calculator for tickets with form validation, pixel perfect markup with adaptiveness for mobiles and tablets, parallax effect and other features.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>SASS, Webpack, JavaScript</p>
-              <p class="clear"></p>
-            </div>
+      <section class="details">
+        <div class="outer-box"></div>
+        <button class="close-form"></button>
+        <div class="project-info hide" id="project-1">
+          <figure>
+            <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/museum-dom/" target="_blank">
+              <img src="images/screenshot-markup.png" width="400" alt="markup">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Markup</h3>
+            <p>High-level markup with different modern features: endless slider, ripple effect, gallery on grids, mapbox library, custom HTML5 video player with key controls, calculator for tickets with form validation, pixel perfect markup with adaptiveness for mobiles and tablets, parallax effect and other features.</p>
+            <br>
+            <h4>Technologies:</h4>
+            <p>SASS, Webpack, JavaScript</p>
+            <h5><a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/museum-dom/" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/momentum/" target="_blank">
-                <img src="images/screenshot-momentum.png" width="400" alt="momentum">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Momentum</h3>
-              <p>Modern application with different widgets: time, greeting, citations, online data about the weather in chosen city, todos list, possibility to change background pictures and their resources, listen music (HTML5 custom audio), settings to show or hide each widget, internationalization (russian and english languages are available)</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>SASS, Webpack, JavaScript</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-2">
+          <figure>
+            <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/momentum/" target="_blank">
+              <img src="images/screenshot-momentum.png" width="400" alt="momentum">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Momentum</h3>
+            <p>Modern application with different widgets: time, greeting, citations, online data about the weather in chosen city, todos list, possibility to change background pictures and their resources, listen music (HTML5 custom audio), settings to show or hide each widget, internationalization (russian and english languages are available)</p>
+            <br>
+            <h4>Technologies:</h4>
+            <p>SASS, Webpack, JavaScript</p>
+            <p class="clear"></p>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/art-quiz/" target="_blank">
-                <img src="images/screenshot-artquiz.png" width="400" alt="artquiz">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Art quiz</h3>
-              <p>In this quiz you can choose 3 types of games: to guess author of the picture for his work or vise versa, and blitz mix game for time. The game is accompanied by sound and graphic effects. There are statistics, settings for game with or without time, fullscreen mode, different art genres.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>SASS, Webpack, JavaScrip, Eslint, SPA (single page application)</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-3">
+          <figure>
+            <a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/art-quiz/" target="_blank">
+              <img src="images/screenshot-artquiz.png" width="400" alt="markup">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Art quiz</h3>
+            <p>In this quiz you can choose 3 types of games: to guess author of the picture for his work or vise versa, and blitz mix game for time. The game is accompanied by sound and graphic effects. There are statistics, settings for game with or without time, fullscreen mode, different art genres.</p>
+            <br>
+            <h4>Technologies:</h4>
+            <p>SASS, Webpack, JavaScrip, Eslint, SPA (single page application)</p>
+            <h5><a href="https://rolling-scopes-school.github.io/tanyasamal-JSFE2021Q3/art-quiz/" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://tanyasamal-christmas-task-part2.netlify.app/#/tree" target="_blank">
-                <img src="images/screenshot-christmas.png" width="400" alt="christmas">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Christmas game and shop</h3>
-              <p>One part of this project is the game where you can decorate christmas tree by different balls, toys and garland. It's available to change tree and background image, save your tree as a picture, add sounds and snowflakes. The second part of this app is the toys store with filter by color, shape, size, available amount of toys and their dates of creation, search by name and sort by name and year. Also you can add or remove toys to favourites.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>SASS, TypeScript, SPA, AngularJS, Eslint, Prettier</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-4">
+          <figure>
+            <a href="https://tanyasamal-christmas-task-part2.netlify.app/#/tree" target="_blank">
+              <img src="images/screenshot-christmas.png" width="400" alt="markup">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Christmas game and shop</h3>
+            <p>One part of this project is the game where you can decorate christmas tree by different balls, toys and garland. It's available to change tree and background image, save your tree as a picture, add sounds and snowflakes. The second part of this app is the toys store with filter by color, shape, size, available amount of toys and their dates of creation, search by name and sort by name and year. Also you can add or remove toys to favourites.</p>
+            <br>
+            <h4>Technologies:</h4>
+            <p>SASS, TypeScript, SPA, AngularJS, Eslint, Prettier</p>
+            <h5><a href="https://tanyasamal-christmas-task-part2.netlify.app/#/tree" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://tanyasamal-async-race.netlify.app/" target="_blank">
-                <img src="images/screenshot-race.png" width="400" alt="async race">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Async race</h3>
-              <p>There is three views: garage, winners and statistic. User is able to create, update, delete a car, and see the list of the cars. There is car and race animation: user clicks to the engine start button -> UI is waiting for car's velocity answer -> animate the car and makes another request to drive. At the end of the race you can see the winner and this information is available on the "Winners" page with different typeps of sorting.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>CSS, TypeScript, Webpack, SPA, Eslint, Prettier</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-5">
+          <figure>
+            <a href="https://tanyasamal-async-race.netlify.app/" target="_blank">
+              <img src="images/screenshot-race.png" width="400" alt="Async race">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Async race</h3>
+            <p>There is three views: garage, winners and statistic. User is able to create, update, delete a car, and see the list of the cars. There is car and race animation: user clicks to the engine start button -> UI is waiting for car's velocity answer -> animate the car and makes another request to drive. At the end of the race you can see the winner and this information is available on the "Winners" page with different typeps of sorting.</p>
+            <br>
+            <h4>Technologies:</h4>
+            <p>CSS, TypeScript, Webpack, SPA, Eslint, Prettier</p>
+            <h5><a href="https://tanyasamal-async-race.netlify.app/" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://rslang-tanyasamal.netlify.app/" target="_blank">
-                <img src="images/screenshot-rslang.png" width="400" alt="rs lang">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>RSLang (team project for two people)</h3>
-              <p>This is an application to learn English words using two games: audiocall and sprint. There is a dictionary consisted from 4000 english words divided by 6 levels depending on their complexity. As you sign up for the app you can mark the word as learnt or difficult. Also it's available daily and long-term statistics for registered users.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>SCSS, TypeScript, Webpack, SPA, Eslint, Prettier, Web Animations, Chart.js</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-6">
+          <figure>
+            <a href="https://rslang-tanyasamal.netlify.app/" target="_blank">
+              <img src="images/screenshot-rslang.png" width="400" alt="RSLang">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>RSLang (team project for two people)</h3>
+            <p>This is an application to learn English words using two games: audiocall and sprint. There is a dictionary consisted from 4000 english words divided by 6 levels depending on their complexity. As you sign up for the app you can mark the word as learnt or difficult. Also it's available daily and long-term statistics for registered users.</p>
+            <br>
+            <h4>Technologies:</h4>
+            <p>SCSS, TypeScript, Webpack, SPA, Eslint, Prettier, Web Animations, Chart.js</p>
+            <h5><a href="https://rslang-tanyasamal.netlify.app/" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://youtube-client-6-tanyasamal.netlify.app/" target="_blank">
-                <img src="images/screenshot-youtube.png" width="400" alt="youtube client">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Youtube client</h3>
-              <p>This application represents youtube client. You can input keyword in the search field and see results as if it's youtube site. You can sort this results by view count, date and filter by words. Also you can register on the site and see full information about the video or create your own video card.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>SCSS, Angular, SPA, Eslint, Prettier, Rxjs</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-7">
+          <figure>
+            <a href="https://youtube-client-6-tanyasamal.netlify.app/" target="_blank">
+              <img src="images/screenshot-youtube.png" width="400" alt="Youtube client">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Youtube client</h3>
+            <p>This application represents youtube client. You can input keyword in the search field and see results as if it's youtube site. You can sort this results by view count, date and filter by words. Also you can register on the site and see full information about the video or create your own video card.</p>
+            <br>
+            <h4>Technologies:</h4>
+            <p>SCSS, Angular, SPA, Eslint, Prettier, Rxjs</p>
+            <h5><a href="https://youtube-client-6-tanyasamal.netlify.app/" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://rsmanager-tanyasamal-evgender-horndron.netlify.app/" target="_blank">
-                <img src="images/screenshot-rsmanager.png" width="400" alt="rs manager">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>RSLang (team project for 3 people)</h3>
-              <p>This is a project management tool where you can sign up and create your own project boards with columns and tasks inside. You can add, delete and drag and drop columns, tasks and boards, search tasks by different options and translate application into russian or english.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>SCSS, Angular, SPA, Eslint, Prettier, Rxjs, Redux, Karma</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-8">
+          <figure>
+            <a href="https://rsmanager-tanyasamal-evgender-horndron.netlify.app/" target="_blank">
+              <img src="images/screenshot-rsmanager.png" width="400" alt="rsmanager">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>RSManager (team project for 3 people)</h3>
+            <p>This is a project management tool where you can sign up and create your own project boards with columns and tasks inside. You can add, delete and drag and drop columns, tasks and boards, search tasks by different options and translate application into russian or english.</p>
+            <br>
+            <h4>Technologies:</h4>
+            <p>SCSS, Angular, SPA, Eslint, Prettier, Rxjs, Redux, Karma</p>
+            <h5><a href="https://rsmanager-tanyasamal-evgender-horndron.netlify.app/" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://tanyasamal.github.io/Brainstorm/" target="_blank">
-                <img src="images/screenshot-brainstorm.png" width="400" alt="brainstorm">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Brainstorm</h3>
-              <p>Game for children 6-8y.o. with mathematical tasks.</p>
-              <br>
-              <p><strong>Gameplay example step by step:</strong></p>
+        </div>
+        <div class="project-info hide" id="project-9">
+          <figure>
+            <a href="https://tanyasamal.github.io/Brainstorm/" target="_blank">
+              <img src="images/screenshot-brainstorm.png" width="400" alt="Brainstorm">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Brainstorm</h3>
+            <p>Game for children 6-8y.o. with mathematical tasks.</p>
               <ul>
                 <li>
                   1. The Battle begins, Player and Monster have 100hp or more each.
@@ -303,69 +561,58 @@
                   5. If the Player wins, there will be a new battle with the next Monster. If the Player loses, high score table appears on the screen and it shows number of defeated Monsters and Player name.
                 </li>
               </ul>
-              <br>
-              <h4>Technologies:</h4>
-              <p>JavaScript, React, Webpack, EsLint</p>
-              <br>
-              <p class="clear"></p>
-            </div>
+            <br>
+            <h4>Technologies:</h4>
+            <p>JavaScript, React, Webpack, EsLint</p>
+            <h5><a href="https://tanyasamal.github.io/Brainstorm/" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://tanyasamal.github.io/team-project/" target="_blank">
-                <img src="images/screenshot-writers.png" width="400" alt="cultural portal">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Cultural portal</h3>
-              <p>Working in groups, we had to develop a mobile-friendly web portal about culture of Belarus on the given topic (writers).</p>
+        </div>
+        <div class="project-info hide" id="project-10">
+          <figure>
+            <a href="https://tanyasamal.github.io/team-project/" target="_blank">
+              <img src="images/screenshot-writers.png" width="400" alt="Cultural portal">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Cultural portal</h3>
+            <p>Working in groups, we had to develop a mobile-friendly web portal about culture of Belarus on the given topic (writers).</p>
               <p>The goal is to make content project quickly using available simple tools, distriburing work and helping each other.</p>
               <p>The portal works in three languages and with timeline, search, map, photo gallery, video overlay.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>JavaScript, Webpack, EsLint, JSON</p>
-              <p class="clear"></p>
-            </div>
+            <br>
+            <h4>Technologies:</h4>
+            <p>JavaScript, Webpack, EsLint, JSON</p>
+            <h5><a href="https://tanyasamal.github.io/team-project/" target="_blank">Deploy link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://github.com/TanyaSamal/nodejs2022Q2-service/tree/auth" target="_blank">
-                <img src="images/screenshot-service.png" width="400" alt="rest service">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>Rest service</h3>
-              <p>REST service based on NestJs library. There is no deploy version and you can see, clone and run code from github or <a href="https://hub.docker.com/repository/docker/miasol/nodejs2022q2-service_app" target="_blank">dockerhub</a>. See README.md how it works. </p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>Docker, TypeOrm, Winston, TypeScript, NestJS, Passport, JWT, Eslint, PostgreSQL, NodeJs</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-11">
+          <figure>
+            <a href="https://github.com/TanyaSamal/nodejs2022Q2-service/tree/auth" target="_blank">
+              <img src="images/screenshot-service.png" width="400" alt="Rest service">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>Rest service</h3>
+            <p>REST service based on NestJs library. There is no deploy version and you can see, clone and run code from github or <a href="https://hub.docker.com/repository/docker/miasol/nodejs2022q2-service_app" target="_blank">dockerhub</a>. See README.md how it works. </p>
+            <h4>Technologies:</h4>
+            <p>Docker, TypeOrm, Winston, TypeScript, NestJS, Passport, JWT, Eslint, PostgreSQL, NodeJs</p>
+            <h5><a href="https://github.com/TanyaSamal/nodejs2022Q2-service/tree/auth" target="_blank">Code link</a></h5>
           </div>
-          <div class="project">
-            <figure>
-              <a href="https://github.com/TanyaSamal/file-manager/tree/develop" target="_blank">
-                <img src="images/screenshot-filemanager.png" width="400" alt="file manager">
-              </a>
-            </figure>
-            <div class="description">
-              <h3>File manager</h3>
-              <p>This file manager is written on a pure NodeJS. It can go to dedicated folder from current directory, list all files and folders, create, rename, remove, copy and move files, show information about OS. There is no deploy version and you can see, clone and run code from <a href="https://github.com/TanyaSamal/file-manager/tree/develop">github</a>.</p>
-              <br>
-              <h4>Technologies:</h4>
-              <p>NodeJs (ESM modules)</p>
-              <p class="clear"></p>
-            </div>
+        </div>
+        <div class="project-info hide" id="project-12">
+          <figure>
+            <a href="https://github.com/TanyaSamal/file-manager/tree/develo" target="_blank">
+              <img src="images/screenshot-filemanager.png" width="400" alt="File manager">
+            </a>
+          </figure>
+          <div class="description">
+            <h3>File manager</h3>
+            <p>This file manager is written on a pure NodeJS. It can go to dedicated folder from current directory, list all files and folders, create, rename, remove, copy and move files, show information about OS. There is no deploy version and you can see, clone and run code from github.</p>
+            <h4>Technologies:</h4>
+            <p>NodeJs (ESM modules)</p>
+            <h5><a href="https://github.com/TanyaSamal/file-manager/tree/develo" target="_blank">Code link</a></h5>
           </div>
-        </section>
-        <footer>
-          <a class="my-github" href="https://github.com/TanyaSamal">
-            <img class="github-icon" src="./images/github.png" alt="Github Icon" width="35" height="35">
-          </a>
-          <h4>2022</h4>
-          <a href="https://rs.school/js/">
-            <img src="./images/rs_school_js.svg" alt="Rsschool Icon" width="126" height="35">
-          </a>
-        </footer>
+        </div>
+      </section>
+      <script src="./mail.js"></script>
     </body>
   </html>
